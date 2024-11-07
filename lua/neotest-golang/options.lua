@@ -13,10 +13,7 @@ local opts = {
   go_list_args = {}, -- NOTE: can also be a function
   dap_go_opts = {}, -- NOTE: can also be a function
   dap_manual_enabled = false, -- NOTE: can alse be a function
-  dap_manual_opts = {
-    type = "go-test",
-    delve = {}
-  }, -- NOTE: can also be a function
+  dap_manual_configuration = {}, -- NOTE: can also be a function
   testify_enabled = false,
   colorize_test_output = true,
   warn_test_name_dupes = true,
